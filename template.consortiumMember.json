@@ -88,7 +88,8 @@
         "Standard_GS2",
         "Standard_GS3",
         "Standard_GS4",
-        "Standard_GS5"
+        "Standard_GS5",
+		"Standard_D2s_v3"
       ]
     },
     "minerCount": {
@@ -97,24 +98,7 @@
     },
     "txnodeVMSku": {
       "defaultValue": "Standard_DS1_v2",
-      "type": "string",
-      "allowedValues": [
-        "Standard_DS1_v2",
-        "Standard_DS2_v2",
-        "Standard_DS3_v2",
-        "Standard_DS4_v2",
-        "Standard_DS5_v2",
-        "Standard_DS11_v2",
-        "Standard_DS12_v2",
-        "Standard_DS13_v2",
-        "Standard_DS14_v2",
-        "Standard_DS15_v2",
-        "Standard_GS1",
-        "Standard_GS2",
-        "Standard_GS3",
-        "Standard_GS4",
-        "Standard_GS5"
-      ]
+      "type": "string"
     },
     "txnodeCount": {
       "defaultValue": 3,
