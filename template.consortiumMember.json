@@ -353,7 +353,7 @@
       "properties": {
         "templateLink": {
           "contentVersion": "1.0.0.0",
-          "uri": "[concat(variables('utilityContentRoot'), '/template.vmProperties.json')]"
+          "uri": "[concat(variables('utilityContentRootUrlModified'), '/template.vmProperties.json')]"
         },
         "mode": "Incremental",
         "parameters": {
