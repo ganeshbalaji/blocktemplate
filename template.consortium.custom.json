@@ -110,6 +110,10 @@
         "Standard_GS5"
       ]
     },
+	"dashBoardVMSku": {
+		"defaultValue": "Standard_DS1_v2",
+		"type": "string"
+	},
     "contentVersion": {
       "defaultValue": "Release-v4.0.2",
       "type": "string",
@@ -217,7 +221,7 @@
             "value": "[parameters('dashboardSecret')]"
           },
           "vmSku": {
-            "value": "[parameters('txnodeVMSku')]"
+            "value": "[parameters('dashBoardVMSku')]"
           },
           "locationOverride": {
             "value": "[variables('resourceLocation')]"
